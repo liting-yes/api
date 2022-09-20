@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon app.js",
-    "prd": "pm2 start app.j"
+    "prd": "pm2 start app.js"
   },
   "keywords": [],
   "author": "",
