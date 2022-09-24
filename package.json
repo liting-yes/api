@@ -4,14 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon app.js",
-    "prd": "pm2 start app.js"
+    "dev": "nodemon src/app.js",
+    "prd": "pm2 start src/app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@koa/router": "^12.0.0",
+    "@vercel/node": "^2.5.18",
     "glob": "^8.0.3",
     "koa": "^2.13.4",
     "pm2": "^5.2.0"

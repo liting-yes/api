@@ -6,7 +6,7 @@ const word = require('./routes/word.js')
 app.use(word.routes(), word.allowedMethods())
 
 app.use(async (ctx) => {
-    ctx.body = 'test'
+    ctx.body = "Liting's api server"
 })
 
-app.listen(3001)
+app.listen(6001)
