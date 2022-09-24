@@ -9,4 +9,4 @@ app.use(async (ctx) => {
     ctx.body = "Liting's api server"
 })
 
-app.listen(6001)
+module.exports = app

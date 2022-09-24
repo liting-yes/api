@@ -2,10 +2,10 @@
   "name": "api",
   "version": "1.0.0",
   "description": "liting's server api",
-  "main": "src/app.js",
+  "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/app.js",
-    "prd": "pm2 start src/app.js"
+    "dev": "nodemon index.js",
+    "prd": "pm2 start index.js"
   },
   "keywords": ["Koa", "API"],
   "author": "",
